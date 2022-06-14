@@ -123,9 +123,7 @@ header .logo span {
     object-fit: cover;
     opacity: 0.3;
 }
-.menu {
-    /* display: none; */
-}
+
 .text {
     z-index: 10;
     position: relative;
@@ -254,3 +252,88 @@ header .logo span {
         font-size: 15px;
     }
 }
+.menu {
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.menu .container {
+    margin: 15px;
+}
+.menu .header {
+    top: 0;
+    font-family: var(--myfont);
+}
+.menu .container .col .images {
+    text-align: center;
+    position: relative;
+    padding-right: 60px
+}
+.menu .container .col {
+    margin: 5px;
+}
+.menu .container .col .images img {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+.menu .container .text {
+    z-index: 1;
+    text-align: center;
+    
+}
+.menu .header h1 {
+    letter-spacing: -1px;
+    word-spacing: -30px;
+    padding-right: 20px;
+}
+.menu .container .text h2 {
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+.menu .container .text p {
+    font-size: 10px;
+    text-align: -webkit-auto;
+    font-style: normal;
+}
+@media (max-height:860px) {
+    .menu .container {
+        padding-top: 20px;
+        padding-right: 17px;
+    }
+    .menu .container .col .images img {
+        width: 50;
+        height: 50px;
+        margin: 5px;
+        padding-right: 5px;
+    }
+    .menu .container .col .images {
+        padding-right: 82px
+    }
+    .menu .header h1 {
+        font-size: small;
+        padding-right: 85px;
+        margin: -10px;
+        padding-top: 5px;
+        letter-spacing: normal;
+        word-spacing: normal;
+    }
+    
+    .menu .container .text h2 {
+        font-size: 11px;
+        padding-bottom: 4px;
+    }
+    .menu .container .text p {
+        font-size: 9px;
+    }
+}
+
