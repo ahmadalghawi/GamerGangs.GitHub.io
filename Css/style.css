@@ -276,7 +276,8 @@ header .logo span {
 .menu .container .col .images {
     text-align: center;
     position: relative;
-    padding-right: 60px
+    padding-right: 60px;
+    
 }
 .menu .container .col {
     margin: 5px;
@@ -285,6 +286,7 @@ header .logo span {
     width: 80px;
     height: 80px;
     margin: 5px;
+    border-radius: 50%;
 }
 .menu .container .text {
     z-index: 1;
